@@ -1,3 +1,93 @@
 .hidden {
   display: none;
 }
+
+body{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  position: relative;
+  top:0;
+  width: 100%;
+}
+
+#login-form{
+  position: absolute;
+  top: 55%;
+  z-index: 2;
+}
+
+#login-form input{
+  border-radius: 20px;
+  box-shadow: 0 0 20px 0 grey;
+  text-align: center;
+}
+
+#login-form button{
+  border: none;
+  border-radius: 20px;
+}
+
+#clock{
+  position: absolute;
+  top: 30%;
+  font-size: 100px;
+  color: whitesmoke;
+  z-index: 2;
+}
+
+#greeting{
+  position: absolute;
+  top: 55%;
+  z-index: 2;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+#quote{
+  position: absolute;
+  top: 65%;
+  color: whitesmoke;
+  z-index: 2;
+}
+
+#weather{
+  position: absolute;
+  top: 69%;
+  color: whitesmoke;
+  z-index: 2;
+}
+
+#todo-form{
+  position: absolute;
+  top: 75%;
+  color: whitesmoke;
+  z-index: 2;
+}
+
+#todo-form input {
+  width: 200px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 0 grey;
+  text-align: center;
+}
+
+#todo-list {
+  position: absolute;
+  top: 80%;
+  z-index: 2;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+#todo-list button {
+  border: none;
+  border-radius: 20px;
+  margin-left: 10px;
+}
